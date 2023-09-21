@@ -1,8 +1,9 @@
 <?php
-    $servidor='localhost';
-    $usuario='root';
-    $password='';
-    $database='utcj';
 
-    $conexion= mysqli_connect($servidor,$usuario,$password,$database);
+    $servidor="localhost";
+    $usuario="root";
+    $clave="";
+    $baseDeDatos="formulario";
+
+    $enlace =mysqli_connect ($servidor,$usuario,$clave,$baseDeDatos);
 ?>

@@ -166,10 +166,19 @@ textarea{
     background: #006699;
     color:#fdfdfd;
     font-size: 16px;
+    margin-top: 25px;
 }
 
 #form{}
 
 #datos{
     margin-top: 30px;
+}
+
+#abajo{
+    width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin-top: 25px;
+    border-top: 1px solid #ccc;
 }
